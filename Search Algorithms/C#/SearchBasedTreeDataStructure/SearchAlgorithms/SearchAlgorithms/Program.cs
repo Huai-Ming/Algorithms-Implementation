@@ -1,4 +1,5 @@
-﻿using SearchAlgorithms.DFS;
+﻿using SearchAlgorithms.BFS;
+using SearchAlgorithms.DFS;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,8 +29,12 @@ namespace SearchAlgorithms
             //  19, 21, 14
             // 1,12,31    23,6
             // Traverse and print the tree using Depth-First-Search
-            DFSHelper.Tree = tree;
-            DFSHelper.TraverseDFS(tree);
+            //DFSHelper.Tree = tree;
+            //DFSHelper.TraverseDFS(tree);
+
+            // Traverse and print the tree using Breadth-First-Search
+            BFSHelper.Tree = tree;
+            BFSHelper.TraverseBFS(tree);
 
             Console.Read();
         }
