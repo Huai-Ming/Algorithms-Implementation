@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTree", "BinarySearchTree\BinarySearchTree.csproj", "{96849F9D-64E1-4B86-B9A0-BADCE1C4A3ED}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graph", "Graph", "{3D1AF912-AFF3-4BB9-B728-3881D2900910}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "Graph\Graph.csproj", "{FDCFA87D-7B4F-429E-9E37-A6347000FD1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,15 @@ Global
 		{96849F9D-64E1-4B86-B9A0-BADCE1C4A3ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96849F9D-64E1-4B86-B9A0-BADCE1C4A3ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96849F9D-64E1-4B86-B9A0-BADCE1C4A3ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDCFA87D-7B4F-429E-9E37-A6347000FD1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDCFA87D-7B4F-429E-9E37-A6347000FD1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDCFA87D-7B4F-429E-9E37-A6347000FD1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDCFA87D-7B4F-429E-9E37-A6347000FD1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FDCFA87D-7B4F-429E-9E37-A6347000FD1A} = {3D1AF912-AFF3-4BB9-B728-3881D2900910}
 	EndGlobalSection
 EndGlobal
